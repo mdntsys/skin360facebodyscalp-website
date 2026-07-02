@@ -39,15 +39,19 @@ export default function AboutPage() {
       <section className="mx-auto max-w-6xl px-5 py-20 lg:px-8">
         <div className="grid items-center gap-14 lg:grid-cols-2">
           <Reveal className="relative mx-auto w-full max-w-md">
-            <div className="relative aspect-[4/5] overflow-hidden rounded-[var(--radius-xl2)] border border-gold-200 bg-gradient-to-br from-cream via-ivory to-sand shadow-[0_40px_100px_-50px_rgba(166,124,52,0.6)]">
-              <div className="absolute inset-0 flex flex-col items-center justify-center p-10 text-center">
-                <Image src="/logo.webp" alt={SITE.name} width={240} height={215} className="w-48 max-w-full" />
-                <p className="mt-6 max-w-xs text-sm italic text-ink-soft">
-                  Founded and led by Carolina — an esthetician devoted to her craft.
-                </p>
-              </div>
-              <span className="absolute left-5 top-5 h-10 w-10 border-l border-t border-gold-300" aria-hidden />
-              <span className="absolute bottom-5 right-5 h-10 w-10 border-b border-r border-gold-300" aria-hidden />
+            <div className="relative aspect-[4/5] overflow-hidden rounded-[var(--radius-xl2)] border border-gold-200 shadow-[0_40px_100px_-50px_rgba(166,124,52,0.6)]">
+              <Image
+                src="/images/about-treatment.webp"
+                alt="An esthetician performing a gold-tool facial massage on a relaxed client at Skin 360"
+                fill
+                sizes="(max-width: 1024px) 90vw, 460px"
+                className="object-cover"
+              />
+              <span aria-hidden className="absolute inset-0 bg-gradient-to-t from-ink/60 via-ink/10 to-transparent" />
+              <p className="absolute inset-x-0 bottom-0 p-6 text-sm italic text-white/95">
+                Founded and led by Carolina — an esthetician devoted to her craft.
+              </p>
+              <span className="absolute left-5 top-5 z-10 h-10 w-10 border-l border-t border-gold-200/90" aria-hidden />
             </div>
           </Reveal>
 
