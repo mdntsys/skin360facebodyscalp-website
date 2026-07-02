@@ -51,13 +51,20 @@ export const metadata: Metadata = {
     siteName: SITE.name,
     title: `${SITE.name} — Face · Body · Scalp`,
     description: SITE.shortDescription,
-    images: ["/logo.webp"],
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: `${SITE.name} — Face · Body · Scalp`,
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: SITE.name,
     description: SITE.shortDescription,
-    images: ["/logo.webp"],
+    images: ["/og-image.png"],
   },
   icons: {
     icon: [

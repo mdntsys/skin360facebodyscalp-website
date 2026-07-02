@@ -19,7 +19,7 @@ export function pageMetadata({
   images?: string[];
 }): Metadata {
   const url = new URL(path, SITE.url).toString();
-  const ogImages = images ?? ["/logo.webp"];
+  const ogImages = images ?? ["/og-image.png"];
   return {
     title,
     description,
@@ -58,7 +58,7 @@ export function localBusinessSchema(loc: Location) {
     "@id": locationId(loc),
     name: `${SITE.name} — ${loc.neighborhood}`,
     parentOrganization: { "@id": geoIds.organization },
-    image: `${SITE.url}/logo.webp`,
+    image: `${SITE.url}/og-image.png`,
     url: `${SITE.url}/locations/${loc.slug}`,
     telephone: loc.phoneRaw,
     email: loc.email,
@@ -118,7 +118,7 @@ export function organizationGraph() {
           "@type": "ImageObject",
           url: `${SITE.url}/logo.webp`,
         },
-        image: `${SITE.url}/logo.webp`,
+        image: `${SITE.url}/og-image.png`,
         description: SITE.shortDescription,
         email: SITE.email,
         telephone: SITE.phoneRaw,

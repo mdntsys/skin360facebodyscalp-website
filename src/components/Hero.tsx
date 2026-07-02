@@ -54,34 +54,25 @@ export function Hero() {
           </dl>
         </div>
 
-        {/* Visual — elegant framed panel with logo; a generated photo can drop in here later */}
+        {/* Visual — feature photograph in an elegant gold frame */}
         <div className="reveal is-visible relative mx-auto w-full max-w-md lg:max-w-none">
-          <div className="relative aspect-[4/5] overflow-hidden rounded-[var(--radius-xl2)] border border-gold-200 bg-gradient-to-br from-cream via-ivory to-sand shadow-[0_40px_100px_-50px_rgba(166,124,52,0.6)]">
-            <div
-              aria-hidden
-              className="absolute inset-0"
-              style={{
-                background:
-                  "radial-gradient(70% 60% at 50% 40%, rgba(231,211,161,0.35) 0%, rgba(231,211,161,0) 70%)",
-              }}
+          <div className="relative aspect-[4/5] overflow-hidden rounded-[var(--radius-xl2)] border border-gold-200 shadow-[0_40px_100px_-50px_rgba(166,124,52,0.6)]">
+            <Image
+              src="/images/hero-facial.webp"
+              alt="A client relaxing during a luxury facial treatment at Skin 360 Face Body Scalp"
+              fill
+              priority
+              sizes="(max-width: 1024px) 90vw, 620px"
+              className="object-cover"
             />
-            <div className="absolute inset-0 flex flex-col items-center justify-center p-10 text-center">
-              <Image
-                src="/logo.webp"
-                alt={SITE.name}
-                width={280}
-                height={251}
-                priority
-                className="w-56 max-w-full drop-shadow-sm"
-              />
-              <p className="mt-6 max-w-xs text-sm italic leading-relaxed text-ink-soft">
-                A boutique esthetics clinic — pampering each client in a personalized, intimate
-                setting.
-              </p>
-            </div>
+            {/* subtle warm overlay for depth */}
+            <span
+              aria-hidden
+              className="absolute inset-0 bg-gradient-to-t from-ink/20 via-transparent to-transparent"
+            />
             {/* corner filigree */}
-            <span className="absolute left-5 top-5 h-10 w-10 border-l border-t border-gold-300" aria-hidden />
-            <span className="absolute bottom-5 right-5 h-10 w-10 border-b border-r border-gold-300" aria-hidden />
+            <span className="absolute left-5 top-5 z-10 h-10 w-10 border-l border-t border-gold-200/90" aria-hidden />
+            <span className="absolute bottom-5 right-5 z-10 h-10 w-10 border-b border-r border-gold-200/90" aria-hidden />
           </div>
 
           {/* floating location chips */}
