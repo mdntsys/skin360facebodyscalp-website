@@ -4,7 +4,6 @@ import Link from "next/link";
 import { LOCATIONS, SITE } from "@/data/site";
 import { SERVICE_CATEGORIES } from "@/data/services";
 import { PageHeader } from "@/components/PageHeader";
-import { BookingButton } from "@/components/BookingButton";
 import { JsonLd } from "@/components/JsonLd";
 import { pageMetadata, localBusinessSchema, breadcrumbSchema } from "@/lib/seo";
 import { PhoneIcon, MailIcon, PinIcon, ClockIcon, ArrowIcon } from "@/components/icons";
@@ -125,7 +124,26 @@ export default async function LocationPage({
               </li>
             </ul>
             <div className="mt-8">
-              <BookingButton>Book at {loc.neighborhood}</BookingButton>
+              {loc.bookingUrl ? (
+                <a
+                  href={loc.bookingUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-primary"
+                >
+                  Book at {loc.neighborhood}
+                  <ArrowIcon className="h-4 w-4" />
+                </a>
+              ) : (
+                <a href={`tel:${loc.phoneRaw}`} className="btn btn-primary">
+                  Call to Book — {loc.phone}
+                </a>
+              )}
+              <p className="mt-3 text-xs text-muted">
+                {loc.bookingUrl
+                  ? `Secure online booking via ${loc.bookingPlatform}.`
+                  : `Online booking via ${loc.bookingPlatform} coming soon.`}
+              </p>
             </div>
           </div>
 

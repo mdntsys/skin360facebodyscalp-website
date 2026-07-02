@@ -78,8 +78,8 @@ export default async function ServiceCategoryPage({
         <div className="mt-16 flex flex-col items-center gap-4 rounded-[var(--radius-xl2)] bg-cream px-6 py-12 text-center">
           <h2 className="font-serif text-3xl text-ink">Ready to book your {category.name.toLowerCase()} treatment?</h2>
           <p className="max-w-lg text-sm text-ink-soft">
-            Reserve online in seconds through our GlossGenius booking page, or reach out for a
-            complimentary consultation.
+            Choose your location and reserve online in seconds, or reach out for a complimentary
+            consultation.
           </p>
           <BookingButton />
         </div>

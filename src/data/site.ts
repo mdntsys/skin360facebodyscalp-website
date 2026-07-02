@@ -49,6 +49,10 @@ export type Location = {
   hours: { days: string; time: string }[];
   heading: string;
   intro: string;
+  // Each location books through its own platform. Toluca uses GlossGenius;
+  // Valencia uses Square. Leave bookingUrl empty to fall back to phone booking.
+  bookingPlatform: string;
+  bookingUrl: string;
 };
 
 export const LOCATIONS: Location[] = [
@@ -74,15 +78,16 @@ export const LOCATIONS: Location[] = [
     heading: "Premier Skincare Services in Toluca Lake",
     intro:
       "Our Toluca Lake studio in Burbank is a refined, intimate space for face, body, and scalp treatments — personalized care with premium products and advanced technology, just minutes from the heart of the neighborhood.",
+    bookingPlatform: "GlossGenius",
+    bookingUrl: "https://skin360facebodyscalp.glossgenius.com/",
   },
   {
     slug: "valencia",
     name: "Skin 360 — Valencia",
     neighborhood: "Valencia",
-    // NOTE: original menu listed zip 91335 (Reseda). Valencia's Town Center
-    // area is 91355 — corrected here for local SEO/maps. Please confirm the
-    // exact street ("Can Center Dr" may be "Town Center Dr") and suite.
-    addressLine: "24510 Can Center Dr, Suite 170",
+    // Street corrected to "Town Center Dr" (was "Can Center" on the old site)
+    // and zip to 91355 (old menu listed 91335 = Reseda) per CEO confirmation.
+    addressLine: "24510 Town Center Dr, Suite 170",
     city: "Valencia",
     region: "CA",
     postalCode: "91355",
@@ -100,6 +105,10 @@ export const LOCATIONS: Location[] = [
     heading: "Skincare Services in Valencia",
     intro:
       "Our Valencia location brings the full Skin 360 experience — facials, body sculpting, Brazilian lymphatic drainage, and our signature Japanese Head Spa — to Santa Clarita in a serene, welcoming setting.",
+    bookingPlatform: "Square",
+    // TODO: add the Square Appointments booking URL for Valencia.
+    // Until set, Valencia routes to phone booking.
+    bookingUrl: "",
   },
 ];
 

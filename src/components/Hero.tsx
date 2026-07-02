@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden bg-ivory pt-32 pb-20 lg:pt-40">
+    <section className="relative overflow-hidden bg-ivory pt-24 pb-20 sm:pt-28 lg:pt-40">
       {/* Soft gold ambiance */}
       <div
         aria-hidden
@@ -19,9 +19,11 @@ export function Hero() {
       <div className="mx-auto grid max-w-7xl items-center gap-14 px-5 lg:grid-cols-[1.05fr_0.95fr] lg:px-8">
         {/* Copy */}
         <div className="reveal is-visible text-center lg:text-left">
-          <span className="eyebrow inline-flex items-center gap-3">
-            <span className="inline-block h-px w-6 bg-gold-400" aria-hidden />
-            Face · Body · Scalp — Toluca Lake &amp; Valencia
+          <span className="eyebrow flex flex-col items-center gap-1.5 sm:flex-row sm:justify-center sm:gap-2.5 lg:justify-start">
+            <span className="hidden h-px w-6 bg-gold-400 lg:inline-block" aria-hidden />
+            <span className="whitespace-nowrap">Face · Body · Scalp</span>
+            <span className="hidden text-gold-400 sm:inline" aria-hidden>—</span>
+            <span className="whitespace-nowrap">Toluca Lake &amp; Valencia</span>
           </span>
           <h1 className="mt-6 text-balance text-5xl leading-[1.05] sm:text-6xl lg:text-7xl">
             Your Skin Will{" "}
@@ -75,8 +77,8 @@ export function Hero() {
             <span className="absolute bottom-5 right-5 z-10 h-10 w-10 border-b border-r border-gold-200/90" aria-hidden />
           </div>
 
-          {/* floating location chips */}
-          <div className="absolute -bottom-5 left-1/2 flex -translate-x-1/2 gap-2 lg:left-6 lg:translate-x-0">
+          {/* floating location chips — desktop only (kept off the image on mobile) */}
+          <div className="absolute -bottom-5 left-6 hidden gap-2 lg:flex">
             {LOCATIONS.map((loc) => (
               <span
                 key={loc.slug}

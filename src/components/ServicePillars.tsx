@@ -19,10 +19,9 @@ export function ServicePillars() {
           >
             {String(i + 1).padStart(2, "0")}
           </span>
-          <span className="eyebrow relative">{cat.tagline}</span>
-          <h3 className="relative mt-3 font-serif text-3xl text-ink">{cat.name}</h3>
+          <h3 className="relative font-serif text-3xl text-ink">{cat.name}</h3>
           <p className="relative mt-4 flex-1 text-sm leading-relaxed text-ink-soft">
-            {cat.heroDescription}
+            {cat.caption}
           </p>
           <Link
             href={`/services/${cat.slug}`}

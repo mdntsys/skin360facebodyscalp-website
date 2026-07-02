@@ -103,14 +103,9 @@ export function Header() {
             <PhoneIcon className="h-4 w-4 text-gold-600" />
             {SITE.phone}
           </a>
-          <a
-            href={SITE.bookingUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-primary !px-6 !py-3"
-          >
+          <Link href="/book" className="btn btn-primary !px-6 !py-3">
             Book Now
-          </a>
+          </Link>
         </div>
 
         {/* Mobile toggle */}
@@ -183,14 +178,9 @@ export function Header() {
             )}
           </ul>
           <div className="mt-6 flex flex-col gap-3">
-            <a
-              href={SITE.bookingUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-primary w-full"
-            >
+            <Link href="/book" className="btn btn-primary w-full">
               Book an Appointment
-            </a>
+            </Link>
             <a href={`tel:${SITE.phoneRaw}`} className="btn btn-outline w-full">
               Call {SITE.phone}
             </a>

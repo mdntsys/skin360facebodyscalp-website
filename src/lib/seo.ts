@@ -97,7 +97,7 @@ export function localBusinessSchema(loc: Location) {
     )}`,
     potentialAction: {
       "@type": "ReserveAction",
-      target: SITE.bookingUrl,
+      target: loc.bookingUrl || `${SITE.url}/book`,
       name: "Book an appointment",
     },
   };
@@ -152,7 +152,7 @@ export function serviceCategorySchema(slug: string) {
       priceCurrency: "USD",
       price: s.price.replace(/[^0-9.]/g, "") || undefined,
       availability: "https://schema.org/InStock",
-      url: SITE.bookingUrl,
+      url: `${SITE.url}/book`,
     }))
   );
   return {

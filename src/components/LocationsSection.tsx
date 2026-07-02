@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { LOCATIONS, SITE } from "@/data/site";
+import { LOCATIONS } from "@/data/site";
 import { PhoneIcon, PinIcon, ClockIcon, ArrowIcon } from "./icons";
 import { Reveal } from "./Reveal";
 
@@ -43,14 +43,20 @@ export function LocationsSection() {
           </ul>
 
           <div className="mt-7 flex flex-wrap gap-3 pt-2">
-            <a
-              href={SITE.bookingUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-primary !px-6 !py-3"
-            >
-              Book Here
-            </a>
+            {loc.bookingUrl ? (
+              <a
+                href={loc.bookingUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-primary !px-6 !py-3"
+              >
+                Book Here
+              </a>
+            ) : (
+              <a href={`tel:${loc.phoneRaw}`} className="btn btn-primary !px-6 !py-3">
+                Call to Book
+              </a>
+            )}
             <Link href={`/locations/${loc.slug}`} className="btn btn-outline !px-6 !py-3">
               Details <ArrowIcon className="h-4 w-4" />
             </Link>

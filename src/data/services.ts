@@ -25,6 +25,8 @@ export type ServiceCategory = {
   name: string;
   menuLabel: string;
   tagline: string;
+  /** Short caption shown on the homepage pillar cards — matches the client's live site wording. */
+  caption: string;
   heroDescription: string;
   metaTitle: string;
   metaDescription: string;
@@ -37,6 +39,8 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
     name: "Face",
     menuLabel: "Face",
     tagline: "Facials & advanced skin treatments",
+    caption:
+      "Facials: Personalized treatments targeting hydration, clarity, acne, and anti-aging.",
     heroDescription:
       "Personalized facials targeting hydration, clarity, acne, and anti-aging — from our Classic Facial to advanced DMK enzyme therapy, microcurrent sculpting, and non-invasive skin rejuvenation.",
     metaTitle: "Facials & Advanced Skin Treatments | Toluca Lake & Valencia",
@@ -191,6 +195,8 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
     name: "Body",
     menuLabel: "Body",
     tagline: "Contouring & lymphatic drainage",
+    caption:
+      "Body Contouring & Lymphatic Drainages: Advanced, non-invasive technology to tone and shape.",
     heroDescription:
       "Advanced, non-invasive body contouring and Brazilian lymphatic drainage to tone, sculpt, and refresh — enhanced with Celluma LED, cavitation, radio frequency, and cupping technology.",
     metaTitle: "Body Contouring & Brazilian Lymphatic Drainage | Skin 360",
@@ -283,6 +289,8 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
     name: "Scalp — Head Spa",
     menuLabel: "Scalp — Head Spa",
     tagline: "Japanese Head Spa experience",
+    caption:
+      "Head Spa Experience: An exclusive luxurious treatment designed to restore scalp health, stress relief, and overall wellbeing.",
     heroDescription:
       "An exclusive, luxurious Japanese Head Spa designed to restore scalp health, relieve stress, and support overall wellbeing — with scalp analysis, detox, oxygen therapy, CryoScalp, and LED light therapy.",
     metaTitle: "Japanese Head Spa & Scalp Treatments | Skin 360 Valencia",
@@ -387,6 +395,8 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
     name: "Nails",
     menuLabel: "Nails",
     tagline: "Manicures, pedicures & combos",
+    caption:
+      "Nails: Clean, detailed manicures and pedicures — classic, gel, and Russian — plus spa combos.",
     heroDescription:
       "Clean, detailed nail care — from Classic and Gel to the ultra-precise Russian manicure and full nail sets — plus pampering mani/pedi spa combos.",
     metaTitle: "Manicures, Pedicures & Russian Nails | Skin 360",
@@ -498,6 +508,8 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
     name: "Post-Cosmetic Surgery",
     menuLabel: "Post-Cosmetic Surgery",
     tagline: "Recovery lymphatic drainage",
+    caption:
+      "Post-Cosmetic Surgery: Brazilian lymphatic drainage to speed recovery and reduce swelling and bruising.",
     heroDescription:
       "Brazilian manual lymphatic drainage crafted to accelerate healing, reduce pain, bruising, and swelling, and enhance your cosmetic surgery results — helping reveal your new look sooner.",
     metaTitle: "Post-Cosmetic Surgery Lymphatic Drainage | Skin 360",
