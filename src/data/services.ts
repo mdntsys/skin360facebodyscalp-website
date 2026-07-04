@@ -61,6 +61,7 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
           {
             name: "Signature Customized Facial",
             price: "$295",
+            duration: "90 Min",
             description:
               "Each session begins with a thorough skin analysis followed by a deep cleanse, a customized exfoliation treatment that is adjusted at every visit to continually improve and train your skin, and meticulous extractions performed with precision. The treatment is enhanced with our signature customized mask and concludes with LED light therapy to promote radiant, smooth, glowing skin. Your first appointment includes a personalized home-care sample kit and a complimentary customized add-on selected to address your skin's specific concerns and help extend the results of your treatment. As part of your initial experience, you'll also receive a complimentary 30-minute follow-up facial approximately seven days after your first treatment. This visit allows us to evaluate your skin's response, monitor your progress, and make any necessary adjustments to your treatment plan for optimal, long-lasting results.",
           },
@@ -88,6 +89,7 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
           {
             name: "Diamond Elite Facial",
             price: "$275",
+            duration: "80 Min",
             description:
               "Elevate your skincare experience with our Diamond Elite Facial, an advanced treatment that combines Bio-Therapeutic HydroDermabrasion with LED light therapy for radiant, healthy-looking skin. Using diamond-tip technology, this treatment gently exfoliates, deeply cleanses, extracts impurities, and infuses customized treatment solutions to improve hydration, texture, and overall skin health. This treatment is completed with LED light therapy to reduce inflammation, stimulate collagen production, and enhance your results. Ideal for treating dullness, congestion, dehydration, fine lines, and uneven skin texture, the Diamond Elite Facial delivers an instantly smoother, brighter, and more refreshed complexion.",
           },
