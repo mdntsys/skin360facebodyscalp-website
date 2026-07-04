@@ -59,14 +59,10 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
               "Double Cleanse · Skin Analysis · Exfoliation · Extractions · Massage · Masking (Hydrojelly Mask) · Serum · Moisturize · SPF",
           },
           {
-            name: "Customized Facial",
-            price: "$200",
-            duration: "75 Min",
+            name: "Signature Customized Facial",
+            price: "$295",
             description:
-              "Get ready for your best skin ever. This personalized facial is totally tailored to what your skin is craving — whether that's extra hydration, deep detoxing, breakout control, or a major glow-up.",
-            includes:
-              "Double Cleanse · Skin Analysis · Exfoliation · Extractions · Massage · Masking · Serum · Moisturize · SPF",
-            note: "Depending on your skin's needs, one of the following modalities will be selected for your treatment: Microcurrent, Cryo-Therapy, Oxygen Infusion, or LED Therapy.",
+              "Each session begins with a thorough skin analysis followed by a deep cleanse, a customized exfoliation treatment that is adjusted at every visit to continually improve and train your skin, and meticulous extractions performed with precision. The treatment is enhanced with our signature customized mask and concludes with LED light therapy to promote radiant, smooth, glowing skin. Your first appointment includes a personalized home-care sample kit and a complimentary customized add-on selected to address your skin's specific concerns and help extend the results of your treatment. As part of your initial experience, you'll also receive a complimentary 30-minute follow-up facial approximately seven days after your first treatment. This visit allows us to evaluate your skin's response, monitor your progress, and make any necessary adjustments to your treatment plan for optimal, long-lasting results.",
           },
           {
             name: "Cleopatra 24K Gold Facial",
@@ -77,7 +73,7 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
           },
           {
             name: "Skin Zero Gravity Face Treatment",
-            price: "$400",
+            price: "$450",
             duration: "75 Min",
             description:
               "Experience the future of non-invasive rejuvenation with our Dermotechnology-powered facial — an advanced treatment that uses synchronized microcurrents and electroporation to lift, tone, and revitalize the skin at a cellular level. This innovative French technology helps stimulate collagen and elastin production while enhancing the delivery of active serums for visibly firmer, smoother, and more radiant skin. By targeting over 40 facial muscles, it naturally sculpts and restores youthful contours with both immediate and cumulative results — all without pain, heat, needles, or downtime. Includes Face Roller, Silver Gloves, and Silver Mask. A non-invasive alternative to traditional injectable treatments and Botox.",
@@ -90,11 +86,10 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
               "This treatment includes a double cleanse, exfoliation, electroporation serum infusion and microcurrent facial workout, and finishing skincare products to tone facial muscles, boost circulation, and leave your skin feeling refreshed, lifted, and glowing.",
           },
           {
-            name: "Hydro-dermabrasion Facial",
-            price: "$195",
-            duration: "60 Min",
+            name: "Diamond Elite Facial",
+            price: "$275",
             description:
-              "Biotherapeutic hydro-dermabrasion is a non-invasive skin-resurfacing treatment that combines gentle vacuum-assisted exfoliation with targeted serums to cleanse, polish, and hydrate the skin in a single step. Using a diamond or fluid-tip handpiece, it lifts away dull, dead skin cells and impurities while infusing the skin with bioactive ingredients — such as peptides, antioxidants, hyaluronic acid, and soothing botanicals — selected for your skin concerns.",
+              "Elevate your skincare experience with our Diamond Elite Facial, an advanced treatment that combines Bio-Therapeutic HydroDermabrasion with LED light therapy for radiant, healthy-looking skin. Using diamond-tip technology, this treatment gently exfoliates, deeply cleanses, extracts impurities, and infuses customized treatment solutions to improve hydration, texture, and overall skin health. This treatment is completed with LED light therapy to reduce inflammation, stimulate collagen production, and enhance your results. Ideal for treating dullness, congestion, dehydration, fine lines, and uneven skin texture, the Diamond Elite Facial delivers an instantly smoother, brighter, and more refreshed complexion.",
           },
           {
             name: "DMK Skin Revision Enzyme Therapy",
@@ -120,7 +115,7 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
           },
           {
             name: "Procell Microchannel Therapy",
-            price: "$295",
+            price: "$350",
             duration: "80 Min",
             description:
               "A cutting-edge, non-invasive skin rejuvenation therapy that uses micro-channeling technology to stimulate the skin's natural healing process. Tiny, precise channels are created in the skin to promote collagen and elastin production, enhancing skin texture, firmness, and overall radiance. Ideal for reducing fine lines, wrinkles, and acne scars, and improving the absorption of serums for optimal results.",
