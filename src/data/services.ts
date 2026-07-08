@@ -87,11 +87,11 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
               "This treatment includes a double cleanse, exfoliation, electroporation serum infusion and microcurrent facial workout, and finishing skincare products to tone facial muscles, boost circulation, and leave your skin feeling refreshed, lifted, and glowing.",
           },
           {
-            name: "Diamond Elite Facial",
+            name: "Derma Glow Facial",
             price: "$275",
             duration: "80 Min",
             description:
-              "Elevate your skincare experience with our Diamond Elite Facial, an advanced treatment that combines Bio-Therapeutic HydroDermabrasion with LED light therapy for radiant, healthy-looking skin. Using diamond-tip technology, this treatment gently exfoliates, deeply cleanses, extracts impurities, and infuses customized treatment solutions to improve hydration, texture, and overall skin health. This treatment is completed with LED light therapy to reduce inflammation, stimulate collagen production, and enhance your results. Ideal for treating dullness, congestion, dehydration, fine lines, and uneven skin texture, the Diamond Elite Facial delivers an instantly smoother, brighter, and more refreshed complexion.",
+              "Elevate your skincare experience with our Derma Glow Facial, an advanced treatment that combines Bio-Therapeutic HydroDermabrasion with LED light therapy for radiant, healthy-looking skin. Using diamond-tip technology, this treatment gently exfoliates, deeply cleanses, extracts impurities, and infuses customized treatment solutions to improve hydration, texture, and overall skin health. This treatment is completed with LED light therapy to reduce inflammation, stimulate collagen production, and enhance your results. Ideal for treating dullness, congestion, dehydration, fine lines, and uneven skin texture, the Derma Glow Facial delivers an instantly smoother, brighter, and more refreshed complexion.",
           },
           {
             name: "DMK Skin Revision Enzyme Therapy",
@@ -517,7 +517,7 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
         services: [
           {
             name: "Post Cosmetic Surgery — Body",
-            price: "$215",
+            price: "$245",
             duration: "60 Min",
             description:
               "Our Brazilian manual lymphatic drainage treatment, carefully crafted to accelerate healing, reduce pain, bruising, and swelling, and enhance your cosmetic surgery results. This specialized technique supports a smoother recovery and helps reveal your new silhouette more quickly.",
