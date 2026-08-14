@@ -122,6 +122,7 @@ export const NAV_LINKS = [
       { label: "Body", href: "/services/body" },
       { label: "Scalp — Head Spa", href: "/services/scalp" },
       { label: "Nails", href: "/services/nails" },
+      { label: "Lash + Brow + Wax", href: "/services/lash-brow-wax" },
       { label: "Post-Cosmetic Surgery", href: "/services/post-cosmetic-surgery" },
     ],
   },

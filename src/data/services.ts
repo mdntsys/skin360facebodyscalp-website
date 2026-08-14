@@ -501,6 +501,101 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
     ],
   },
   {
+    slug: "lash-brow-wax",
+    name: "Lash + Brow + Wax",
+    menuLabel: "Lash + Brow + Wax",
+    tagline: "Lash lifts, brow styling & waxing",
+    caption:
+      "Lash + Brow + Wax: Lash lifts, brow lamination, and gentle waxing for effortless, polished definition.",
+    heroDescription:
+      "Wake up ready — lash lifts and tints, brow lamination, and gentle waxing that define and brighten your features with weeks of low-maintenance results.",
+    metaTitle: "Lash Lifts, Brow Lamination & Waxing | Toluca Lake & Valencia",
+    metaDescription:
+      "Skin 360's lash, brow, and wax menu: lash lifts and tints, brow lamination, brow and facial waxing, and combo treatments in Toluca Lake & Valencia, CA.",
+    groups: [
+      {
+        title: "Lashes & Brows",
+        services: [
+          {
+            name: "Lash Lift",
+            price: "$90",
+            duration: "60 Min",
+            description:
+              "Enhance your natural lashes with a beautiful, long-lasting curl and lift. A lash lift reshapes your natural lashes from the base, creating the appearance of longer, fuller, and more defined lashes while opening up the eyes. Perfect for a low-maintenance, effortless look, with results lasting approximately 6-8 weeks depending on your natural lash cycle and aftercare.",
+          },
+          {
+            name: "Lash Lift w/ Tint",
+            price: "$110",
+            duration: "75 Min",
+            description:
+              "Give your natural lashes the ultimate boost with a lash lift and tint. This treatment lifts and curls your lashes from the base while a custom lash tint adds rich, darker definition for a naturally fuller, more dramatic appearance. Perfect for a low-maintenance beauty routine — wake up with beautifully curled, defined lashes without the need for mascara or a lash curler. Results last approximately 6-8 weeks, depending on your natural lash cycle and aftercare.",
+          },
+          {
+            name: "Brow Lamination",
+            price: "$90",
+            duration: "60 Min",
+            description:
+              "Give your brows a beautifully brushed, lifted, and fuller look with brow lamination. This treatment smooths and reshapes your natural brow hairs, creating a clean, polished appearance while enhancing your brows' natural shape and fullness. Perfect for achieving that effortless, fluffy brow look with less daily maintenance. Results last approximately 4-6 weeks.",
+          },
+          {
+            name: "Brow Lamination w/ Tint",
+            price: "$110",
+            duration: "75 Min",
+            description:
+              "Elevate your natural brows with a brow lamination and tint. This treatment lifts, smooths, and shapes the brow hairs while adding customized color for a fuller, more defined appearance. The result is beautifully groomed, fluffy, and naturally enhanced brows that frame and brighten the face. Perfect for a polished, low-maintenance look that lasts approximately 4-6 weeks.",
+          },
+          {
+            name: "Lash Lift + Brow Lamination Combo",
+            price: "$160",
+            duration: "1 Hr 45 Min",
+            description:
+              "The best of both in one visit: a lash lift to curl and open up the eyes, paired with brow lamination for full, beautifully groomed brows. One appointment, weeks of a polished, low-maintenance look.",
+          },
+          {
+            name: "Lash Lift w/ Tint + Brow Lamination w/ Tint",
+            price: "$195",
+            duration: "2 Hr",
+            description:
+              "The complete eye-opening combo: a lash lift and tint for curled, darker, defined lashes, plus brow lamination and tint for full, sculpted, richly colored brows. One appointment, weeks of wake-up-ready definition.",
+          },
+        ],
+      },
+      {
+        title: "Waxing",
+        services: [
+          {
+            name: "Brow Wax",
+            price: "$20",
+            duration: "15 Min",
+            description:
+              "Perfectly shaped brows can instantly enhance your features. Our brow wax gently removes unwanted hair while defining and refining your natural brow shape for a clean, polished look. Finished with soothing aftercare to leave the skin feeling smooth and refreshed.",
+          },
+          {
+            name: "Lip Wax",
+            price: "$12",
+            duration: "10 Min",
+            description:
+              "Remove unwanted hair and leave your skin feeling smooth and refreshed with a gentle lip wax. This quick treatment provides a clean, polished finish around the upper lip area for a soft, well-groomed appearance.",
+          },
+          {
+            name: "Full Facial Wax",
+            price: "$50",
+            duration: "30 Min",
+            description:
+              "Reveal smooth, beautifully polished skin with a gentle facial waxing treatment. Unwanted facial hair is carefully removed to create a clean, refined look while leaving the skin feeling soft and refreshed. Perfect for enhancing your natural features and giving your skin a smooth, radiant finish.",
+          },
+          {
+            name: "Underarm Wax",
+            price: "$30",
+            duration: "15 Min",
+            description:
+              "Say goodbye to stubble and enjoy effortlessly smooth underarms. Waxing removes unwanted hair at the root, leaving your skin silky and hair-free for a longer-lasting, clean finish. A quick, convenient treatment for a smooth feel and confident look.",
+          },
+        ],
+      },
+    ],
+  },
+  {
     slug: "post-cosmetic-surgery",
     name: "Post-Cosmetic Surgery",
     menuLabel: "Post-Cosmetic Surgery",
