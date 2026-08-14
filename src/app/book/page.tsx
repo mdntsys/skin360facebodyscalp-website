@@ -8,7 +8,7 @@ import { PhoneIcon, PinIcon, ClockIcon, ArrowIcon } from "@/components/icons";
 export const metadata: Metadata = pageMetadata({
   title: "Book an Appointment — Toluca Lake & Valencia",
   description:
-    "Book your Skin 360 appointment online. Choose your location — Toluca Lake books through GlossGenius and Valencia through Square. Facials, body contouring, and Japanese Head Spa.",
+    "Book your Skin 360 appointment online. Choose your location — Toluca Lake books through GlossGenius and Valencia books right here with us. Facials, body contouring, and Japanese Head Spa.",
   path: "/book",
 });
 

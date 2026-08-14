@@ -8,7 +8,7 @@ type Props = {
 
 /**
  * Generic conversion action. Routes to the /book chooser so visitors pick
- * their location (Toluca → GlossGenius, Valencia → Square) rather than being
+ * their location (Toluca → GlossGenius, Valencia → the Skin 360 app) rather than being
  * sent to a single platform. For a location-specific button, link directly to
  * that location's bookingUrl instead.
  */

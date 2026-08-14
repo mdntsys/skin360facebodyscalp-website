@@ -50,7 +50,7 @@ export type Location = {
   heading: string;
   intro: string;
   // Each location books through its own platform. Toluca uses GlossGenius;
-  // Valencia uses Square. Leave bookingUrl empty to fall back to phone booking.
+  // Valencia books on our own app. Leave bookingUrl empty to fall back to phone booking.
   bookingPlatform: string;
   bookingUrl: string;
 };
@@ -105,9 +105,9 @@ export const LOCATIONS: Location[] = [
     heading: "Skincare Services in Valencia",
     intro:
       "Our Valencia location brings the full Skin 360 experience — facials, body sculpting, Brazilian lymphatic drainage, and our signature Japanese Head Spa — to Santa Clarita in a serene, welcoming setting.",
-    bookingPlatform: "Square",
-    // TODO: add the Square Appointments booking URL for Valencia.
-    // Until set, Valencia routes to phone booking.
+    bookingPlatform: "Skin 360",
+    // FLIP DAY: set bookingUrl to "https://app.skin360facebodyscalp.com/book"
+    // once online booking is switched on. Until set, Valencia routes to phone.
     bookingUrl: "",
   },
 ];

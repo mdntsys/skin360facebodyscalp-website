@@ -32,7 +32,7 @@ export const FAQS: FAQ[] = [
   {
     question: "How do I book an appointment?",
     answer:
-      "You can book online any time — just choose your location on our booking page. Our Toluca Lake studio books through GlossGenius and our Valencia studio through Square. You can also call us at (818) 601-2852 for Toluca Lake or (661) 812-6999 for Valencia.",
+      "You can book online any time — just choose your location on our booking page. Our Toluca Lake studio books through GlossGenius, and our Valencia studio books directly on our website. You can also call us at (818) 601-2852 for Toluca Lake or (661) 812-6999 for Valencia.",
   },
   {
     question: "What is your cancellation policy?",
