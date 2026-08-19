@@ -45,7 +45,7 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
       "Personalized facials targeting hydration, clarity, acne, and anti-aging — from our Classic Facial to advanced DMK enzyme therapy, microcurrent sculpting, and non-invasive skin rejuvenation.",
     metaTitle: "Facials & Advanced Skin Treatments | Toluca Lake & Valencia",
     metaDescription:
-      "Explore Skin 360's facial menu: Classic & Customized Facials, Cleopatra 24K Gold Facial, DMK Enzyme Therapy, microcurrent skin workouts, hydro-dermabrasion, Procell microchanneling, and more in Toluca Lake & Valencia, CA.",
+      "Explore Skin 360's facial menu: Classic & Customized Facials, DMK Enzyme Therapy, microcurrent skin workouts, hydro-dermabrasion, Procell microchanneling, and more in Toluca Lake & Valencia, CA.",
     groups: [
       {
         services: [
@@ -64,13 +64,6 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
             duration: "90 Min",
             description:
               "Each session begins with a thorough skin analysis followed by a deep cleanse, a customized exfoliation treatment that is adjusted at every visit to continually improve and train your skin, and meticulous extractions performed with precision. The treatment is enhanced with our signature customized mask and concludes with LED light therapy to promote radiant, smooth, glowing skin. Your first appointment includes a personalized home-care sample kit and a complimentary customized add-on selected to address your skin's specific concerns and help extend the results of your treatment. As part of your initial experience, you'll also receive a complimentary 30-minute follow-up facial approximately seven days after your first treatment. This visit allows us to evaluate your skin's response, monitor your progress, and make any necessary adjustments to your treatment plan for optimal, long-lasting results.",
-          },
-          {
-            name: "Cleopatra 24K Gold Facial",
-            price: "$250",
-            duration: "85 Min",
-            description:
-              "This luxurious treatment uses real 24K gold to nourish, firm, and illuminate the skin. Gold's revitalizing properties help boost circulation, support collagen production, and reduce inflammation, leaving your complexion smoother, brighter, and more radiant. Paired with deep cleansing, gentle exfoliation, and a hydrating massage, this facial delivers a rejuvenated glow fit for a queen.",
           },
           {
             name: "Skin Zero Gravity Face Treatment",
@@ -141,6 +134,20 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
       {
         title: "Add-On Services",
         services: [
+          {
+            name: "Oxygen Dome LED + Infrared Infusion",
+            price: "$100",
+            duration: "30 min",
+            description:
+              "Elevate your facial experience with the OxygenCeuticals Oxygen Dome, an advanced skin-rejuvenating enhancement that combines oxygen infusion, LED light therapy, and infrared technology.",
+          },
+          {
+            name: "99.9% 24K Gold Therapy",
+            price: "$100",
+            duration: "25 min",
+            description:
+              "Indulge your skin with a luxurious Esthemax 24K Gold Therapy treatment featuring a gold-infused serum and hydrating Hydrojelly Mask. This premium enhancement helps leave skin looking radiant, refreshed, and beautifully luminous.",
+          },
           {
             name: "BioRePeel Blue",
             price: "$95",
