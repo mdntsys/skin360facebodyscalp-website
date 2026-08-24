@@ -106,9 +106,7 @@ export const LOCATIONS: Location[] = [
     intro:
       "Our Valencia location brings the full Skin 360 experience — facials, body sculpting, Brazilian lymphatic drainage, and our signature Japanese Head Spa — to Santa Clarita in a serene, welcoming setting.",
     bookingPlatform: "Skin 360",
-    // FLIP DAY: set bookingUrl to "https://app.skin360facebodyscalp.com/book"
-    // once online booking is switched on. Until set, Valencia routes to phone.
-    bookingUrl: "",
+    bookingUrl: "https://app.skin360facebodyscalp.com/book",
   },
 ];
 

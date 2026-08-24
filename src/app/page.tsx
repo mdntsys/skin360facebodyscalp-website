@@ -176,9 +176,7 @@ export default function HomePage() {
             </p>
             <div className="mt-9 flex flex-col items-center justify-center gap-4 sm:flex-row">
               <a
-                href={SITE.bookingUrl}
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/book"
                 className="btn bg-white text-gold-700 hover:bg-ivory"
               >
                 Book an Appointment

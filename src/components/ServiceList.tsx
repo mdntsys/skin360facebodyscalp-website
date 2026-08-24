@@ -1,4 +1,3 @@
-import { SITE } from "@/data/site";
 import type { ServiceCategory } from "@/data/services";
 import { Reveal } from "./Reveal";
 
@@ -47,9 +46,7 @@ export function ServiceList({ category }: { category: ServiceCategory }) {
                   <p className="mt-3 text-xs italic text-gold-700">{service.note}</p>
                 )}
                 <a
-                  href={SITE.bookingUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="/book"
                   className="mt-5 inline-flex items-center gap-2 self-start text-xs uppercase tracking-[0.18em] text-gold-600 transition-colors hover:text-gold-700"
                 >
                   Book this treatment
