@@ -135,6 +135,13 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
         title: "Add-On Services",
         services: [
           {
+            name: "DMK Mask",
+            price: "$125",
+            duration: "45 Min",
+            description:
+              "A DMK enzyme mask added to your facial to draw out impurities, oxygenate the skin, and leave it firmer and more refined.",
+          },
+          {
             name: "Oxygen Dome LED + Infrared Infusion",
             price: "$100",
             duration: "30 min",
@@ -277,6 +284,13 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
       {
         title: "Add-On Option",
         services: [
+          {
+            name: "DMK Mask (per area)",
+            price: "$200",
+            duration: "30 min per area",
+            description:
+              "A DMK enzyme mask applied to a chosen area to purify, firm, and refine the skin.",
+          },
           {
             name: "BioRePeel Gold",
             price: "$115",
