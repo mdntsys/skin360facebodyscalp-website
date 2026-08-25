@@ -285,11 +285,11 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
         title: "Add-On Option",
         services: [
           {
-            name: "DMK Mask (per area)",
+            name: "DMK Body Enzyme Treatment Add-On",
             price: "$200",
             duration: "30 min per area",
             description:
-              "A DMK enzyme mask applied to a chosen area to purify, firm, and refine the skin.",
+              "A powerful enzyme treatment designed to deeply cleanse, exfoliate, and rejuvenate the body, leaving skin smoother, brighter, and more refined.",
           },
           {
             name: "BioRePeel Gold",
