@@ -135,11 +135,11 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
         title: "Add-On Services",
         services: [
           {
-            name: "DMK Mask",
+            name: "DMK Enzyme Mask Add-On",
             price: "$125",
             duration: "45 Min",
             description:
-              "A DMK enzyme mask added to your facial to draw out impurities, oxygenate the skin, and leave it firmer and more refined.",
+              "Boost your facial with a customized DMK enzyme mask designed to deeply cleanse, exfoliate, and rejuvenate the skin for a smoother, brighter, more refreshed complexion.",
           },
           {
             name: "Oxygen Dome LED + Infrared Infusion",
