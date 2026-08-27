@@ -67,7 +67,7 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
           },
           {
             name: "Skin Zero Gravity Face Treatment",
-            price: "$450",
+            price: "$400",
             duration: "75 Min",
             description:
               "Experience the future of non-invasive rejuvenation with our Dermotechnology-powered facial — an advanced treatment that uses synchronized microcurrents and electroporation to lift, tone, and revitalize the skin at a cellular level. This innovative French technology helps stimulate collagen and elastin production while enhancing the delivery of active serums for visibly firmer, smoother, and more radiant skin. By targeting over 40 facial muscles, it naturally sculpts and restores youthful contours with both immediate and cumulative results — all without pain, heat, needles, or downtime. Includes Face Roller, Silver Gloves, and Silver Mask. A non-invasive alternative to traditional injectable treatments and Botox.",
