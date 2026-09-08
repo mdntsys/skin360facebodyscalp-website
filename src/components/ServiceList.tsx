@@ -1,4 +1,5 @@
 import type { ServiceCategory } from "@/data/services";
+import { LOCATIONS } from "@/data/site";
 import { Reveal } from "./Reveal";
 
 /** Renders a full treatment menu (all groups) for a service category page. */
@@ -45,13 +46,27 @@ export function ServiceList({ category }: { category: ServiceCategory }) {
                 {service.note && (
                   <p className="mt-3 text-xs italic text-gold-700">{service.note}</p>
                 )}
-                <a
-                  href="/book"
-                  className="mt-5 inline-flex items-center gap-2 self-start text-xs uppercase tracking-[0.18em] text-gold-600 transition-colors hover:text-gold-700"
-                >
-                  Book this treatment
-                  <span aria-hidden className="transition-transform group-hover:translate-x-1">→</span>
-                </a>
+                {service.bookByPhone ? (
+                  <p className="mt-5 text-xs uppercase tracking-[0.18em] text-gold-600">
+                    Call or text to book
+                    {LOCATIONS.map((loc) => (
+                      <span key={loc.slug} className="mt-1 block normal-case tracking-normal text-ink-soft">
+                        {loc.neighborhood}{" "}
+                        <a href={`tel:${loc.phoneRaw}`} className="text-gold-700 hover:text-gold-600">
+                          {loc.phone}
+                        </a>
+                      </span>
+                    ))}
+                  </p>
+                ) : (
+                  <a
+                    href="/book"
+                    className="mt-5 inline-flex items-center gap-2 self-start text-xs uppercase tracking-[0.18em] text-gold-600 transition-colors hover:text-gold-700"
+                  >
+                    Book this treatment
+                    <span aria-hidden className="transition-transform group-hover:translate-x-1">→</span>
+                  </a>
+                )}
               </Reveal>
             ))}
           </ul>

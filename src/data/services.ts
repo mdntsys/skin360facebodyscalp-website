@@ -12,6 +12,8 @@ export type Service = {
   description: string;
   includes?: string;
   note?: string;
+  /** Call/text only — no online Book link (free consult). */
+  bookByPhone?: boolean;
 };
 
 export type ServiceGroup = {
@@ -631,6 +633,14 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
     groups: [
       {
         services: [
+          {
+            name: "Free Consultation",
+            price: "Free",
+            duration: "15 Min",
+            description:
+              "A complimentary 15-minute consultation. Call or text to schedule — we'll book it for you.",
+            bookByPhone: true,
+          },
           {
             name: "Post Cosmetic Surgery — Body",
             price: "$245",
