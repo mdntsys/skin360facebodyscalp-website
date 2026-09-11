@@ -97,7 +97,15 @@ export function Footer() {
 
         <div className="flex flex-col items-center justify-between gap-4 text-xs text-muted sm:flex-row">
           <p>© {year} {SITE.name}. All Rights Reserved.</p>
-          <p>Toluca Lake · Valencia · Los Angeles &amp; Santa Clarita, California</p>
+          <p className="flex flex-wrap items-center justify-center gap-x-4 gap-y-1">
+            <Link href="/privacy" className="transition-colors hover:text-gold-600">
+              Privacy
+            </Link>
+            <Link href="/terms" className="transition-colors hover:text-gold-600">
+              Terms
+            </Link>
+            <span>Toluca Lake · Valencia</span>
+          </p>
         </div>
       </div>
     </footer>
