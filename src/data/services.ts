@@ -361,6 +361,13 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
               "An extension-focused headspa supporting both scalp health and extension longevity, delivering hydration and repair. Ideal for chlorine exposure, salt-water dryness, vacation hair recovery, sun-damage prevention, dry or tangled extensions, and scalp buildup. Includes in-depth scalp analysis, deep cleanse and detox scrub, a soothing head massage, Oxygen Spray for deep hydration, a side-by-side scalp analysis, and a gentle blow-dry to ensure scalp and extensions are fully dry.",
             note: "Includes an automatic full-body massage and aromatherapy.",
           },
+          {
+            name: "Healthy Scalp and Hair Workout",
+            price: "$250",
+            duration: "40 Min",
+            description:
+              "A workout for your scalp! This treatment uses a microcurrent tool along with a special scalp serum to support a healthy scalp, improve circulation, and help fight hair loss by creating a better environment for stronger, healthier-looking hair.",
+          },
         ],
       },
       {
@@ -372,13 +379,6 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
             duration: "30 Min",
             description:
               "Our advanced low-level laser therapy uses medical-grade red light to gently stimulate the scalp, improve circulation, and support healthier, fuller-looking hair. This non-invasive treatment helps reduce shedding and strengthen weakened follicles — with no pain and no downtime.",
-          },
-          {
-            name: "Healthy Scalp & Fight Hair Loss Treatment",
-            price: "$190",
-            duration: "30 Min",
-            description:
-              "A workout for your scalp! This treatment uses a microcurrent tool along with a special scalp serum to support a healthy scalp, improve circulation, and help fight hair loss by creating a better environment for stronger, healthier-looking hair.",
           },
         ],
       },
