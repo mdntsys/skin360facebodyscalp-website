@@ -672,6 +672,8 @@ export function getCategory(slug: string): ServiceCategory | undefined {
   return SERVICE_CATEGORIES.find((c) => c.slug === slug);
 }
 
-/** Post-cosmetic surgery package note, surfaced on that category page. */
-export const POST_SURGERY_PACKAGE_NOTE =
-  "Packages available: enjoy 15% off when you purchase a series of 10 sessions. Full payment is required at the time of purchase.";
+/** 10 of the same treatment, paid in full. Sold in-salon, not online. */
+export const PACKAGES_NOTE =
+  "Save 15% when you buy 10 of the same treatment and pay in full. Packages are sold at the salon.";
+/** @deprecated use PACKAGES_NOTE */
+export const POST_SURGERY_PACKAGE_NOTE = PACKAGES_NOTE;

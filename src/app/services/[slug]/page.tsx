@@ -4,7 +4,7 @@ import Link from "next/link";
 import {
   SERVICE_CATEGORIES,
   getCategory,
-  POST_SURGERY_PACKAGE_NOTE,
+  PACKAGES_NOTE,
 } from "@/data/services";
 import { PageHeader } from "@/components/PageHeader";
 import { ServiceList } from "@/components/ServiceList";
@@ -69,11 +69,12 @@ export default async function ServiceCategoryPage({
       <section className="mx-auto max-w-6xl px-5 py-16 lg:px-8">
         <ServiceList category={category} />
 
-        {slug === "post-cosmetic-surgery" && (
-          <p className="mt-12 rounded-[var(--radius-xl2)] border border-gold-200 bg-cream px-6 py-5 text-center text-sm text-gold-700">
-            {POST_SURGERY_PACKAGE_NOTE}
-          </p>
-        )}
+        <p className="mt-12 rounded-[var(--radius-xl2)] border border-gold-200 bg-cream px-6 py-5 text-center text-sm text-gold-700">
+          {PACKAGES_NOTE}{" "}
+          <Link href="/packages" className="underline underline-offset-2">
+            See packages
+          </Link>
+        </p>
 
         <div className="mt-16 flex flex-col items-center gap-4 rounded-[var(--radius-xl2)] bg-cream px-6 py-12 text-center">
           <h2 className="font-serif text-3xl text-ink">Ready to book your {category.name.toLowerCase()} treatment?</h2>
