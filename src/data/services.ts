@@ -44,29 +44,60 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
     caption:
       "Facials: Personalized treatments targeting hydration, clarity, acne, and anti-aging.",
     heroDescription:
-      "Personalized facials targeting hydration, clarity, acne, and anti-aging — from our Classic Facial to advanced DMK enzyme therapy, microcurrent sculpting, and non-invasive skin rejuvenation.",
+      "Custom facials in 75, 90, or 120 minutes, plus DMK enzyme therapy, microcurrent skin workouts, and advanced treatments like Zero Gravity and Procell.",
     metaTitle: "Facials & Advanced Skin Treatments | Toluca Lake & Valencia",
     metaDescription:
-      "Explore Skin 360's facial menu: Classic & Customized Facials, DMK Enzyme Therapy, microcurrent skin workouts, hydro-dermabrasion, Procell microchanneling, and more in Toluca Lake & Valencia, CA.",
+      "Skin 360 custom facials ($275–$350), DMK enzyme and muscle banding, Zero Gravity, Procell, and StemZyme Bootcamp in Toluca Lake and Valencia, CA.",
     groups: [
       {
         services: [
           {
-            name: "Classic Facial",
-            price: "$145",
-            duration: "55 Min",
-            description:
-              "Treat yourself with a luxury experience your skin will thank you for. A personalized treatment that focuses on a variety of skin concerns, providing immediate and lasting results, leaving your skin clean and luminous.",
-            includes:
-              "Double Cleanse · Skin Analysis · Exfoliation · Extractions · Massage · Masking (Hydrojelly Mask) · Serum · Moisturize · SPF",
-          },
-          {
-            name: "Signature Customized Facial",
+            name: "New Client Custom Facial",
             price: "$295",
             duration: "90 Min",
             description:
-              "Each session begins with a thorough skin analysis followed by a deep cleanse, a customized exfoliation treatment that is adjusted at every visit to continually improve and train your skin, and meticulous extractions performed with precision. The treatment is enhanced with our signature customized mask and concludes with LED light therapy to promote radiant, smooth, glowing skin. Your first appointment includes a personalized home-care sample kit and a complimentary customized add-on selected to address your skin's specific concerns and help extend the results of your treatment. As part of your initial experience, you'll also receive a complimentary 30-minute follow-up facial approximately seven days after your first treatment. This visit allows us to evaluate your skin's response, monitor your progress, and make any necessary adjustments to your treatment plan for optimal, long-lasting results.",
+              "Your first custom facial. A thorough skin analysis, deep cleanse, customized exfoliation, and precise extractions, finished with our customized mask and LED light therapy. Includes a personalized home-care sample kit, a complimentary customized add-on for your skin, and a complimentary 30-minute follow-up facial about seven days later so we can check your skin and adjust your plan.",
           },
+          {
+            name: "75 Minute Custom Facial",
+            price: "$275",
+            duration: "75 Min",
+            description:
+              "A customized facial tailored to your skin that day: analysis, deep cleanse, exfoliation, extractions, customized mask, and finishing care.",
+          },
+          {
+            name: "90 Min Custom Facial",
+            price: "$295",
+            duration: "90 Min",
+            description:
+              "Our full custom facial. Skin analysis, deep cleanse, customized exfoliation adjusted each visit, meticulous extractions, signature mask, and LED light therapy for smooth, glowing skin.",
+          },
+          {
+            name: "2 Hour Custom Facial",
+            price: "$350",
+            duration: "2 Hr",
+            description:
+              "An extended custom facial with extra time for thorough extractions, masking, and treatment, tailored to your skin's needs.",
+          },
+          {
+            name: "DMK Skin Revision Muscle Banding",
+            price: "$285",
+            duration: "100 Min",
+            description:
+              "DMK Muscle Banding is a lifting and firming treatment designed to strengthen facial muscles and restore skin tightness. Using DMK's signature enzyme therapy, this treatment stimulates circulation, boosts collagen production, and works to contract and “re-educate” the underlying muscles. The result is firmer, tighter, more youthful-looking skin with improved elasticity and definition. It's an excellent option for preventative aging or for anyone wanting a natural, lifted appearance.",
+          },
+          {
+            name: "DMK Skin Revision Enzyme Therapy",
+            price: "$245",
+            duration: "90 Min",
+            description:
+              "DMK Enzyme Therapy is a corrective, results-driven treatment designed to restore skin to optimal health. Using botanical-based enzymes, this facial works with your body's natural chemistry to stimulate circulation, boost oxygenation, and encourage lymphatic drainage. The signature “plasmatic effect” flushes fresh nutrients to the skin, helping to detoxify, firm, and strengthen the underlying structure. This treatment addresses concerns such as acne, pigmentation, rosacea, textured skin, and premature aging. Your skin is left clearer, brighter, and visibly lifted with improved function at a cellular level — making it one of the most effective professional therapies for long-term skin revision.",
+          },
+        ],
+      },
+      {
+        title: "Advanced Facial Treatments",
+        services: [
           {
             name: "Skin Zero Gravity Face Treatment",
             price: "$400",
@@ -82,29 +113,8 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
               "This treatment includes a double cleanse, exfoliation, electroporation serum infusion and microcurrent facial workout, and finishing skincare products to tone facial muscles, boost circulation, and leave your skin feeling refreshed, lifted, and glowing.",
           },
           {
-            name: "Derma Glow Facial",
-            price: "$275",
-            duration: "80 Min",
-            description:
-              "Elevate your skincare experience with our Derma Glow Facial, an advanced treatment that combines Bio-Therapeutic HydroDermabrasion with LED light therapy for radiant, healthy-looking skin. Using diamond-tip technology, this treatment gently exfoliates, deeply cleanses, extracts impurities, and infuses customized treatment solutions to improve hydration, texture, and overall skin health. This treatment is completed with LED light therapy to reduce inflammation, stimulate collagen production, and enhance your results. Ideal for treating dullness, congestion, dehydration, fine lines, and uneven skin texture, the Derma Glow Facial delivers an instantly smoother, brighter, and more refreshed complexion.",
-          },
-          {
-            name: "DMK Skin Revision Enzyme Therapy",
-            price: "$245",
-            duration: "90 Min",
-            description:
-              "DMK Enzyme Therapy is a corrective, results-driven treatment designed to restore skin to optimal health. Using botanical-based enzymes, this facial works with your body's natural chemistry to stimulate circulation, boost oxygenation, and encourage lymphatic drainage. The signature “plasmatic effect” flushes fresh nutrients to the skin, helping to detoxify, firm, and strengthen the underlying structure. This treatment addresses concerns such as acne, pigmentation, rosacea, textured skin, and premature aging. Your skin is left clearer, brighter, and visibly lifted with improved function at a cellular level — making it one of the most effective professional therapies for long-term skin revision.",
-          },
-          {
-            name: "DMK Skin Revision Muscle Banding",
-            price: "$285",
-            duration: "100 Min",
-            description:
-              "DMK Muscle Banding is a lifting and firming treatment designed to strengthen facial muscles and restore skin tightness. Using DMK's signature enzyme therapy, this treatment stimulates circulation, boosts collagen production, and works to contract and “re-educate” the underlying muscles. The result is firmer, tighter, more youthful-looking skin with improved elasticity and definition. It's an excellent option for preventative aging or for anyone wanting a natural, lifted appearance.",
-          },
-          {
-            name: "DMK Skin Revision Stemzyme Bootcamp",
-            price: "$1,595",
+            name: "DMK StemZyme Bootcamp",
+            price: "$1,950",
             duration: "100 Min",
             description:
               "DMK StemZyme treatment is a cutting-edge skincare treatment that focuses on the process of stem cell differentiation life cycle. Stem cells are the building blocks of the skin, and they play a critical role in the body's natural repair and regeneration processes. Over time (with aging), the population of epidermal stem cells in our skin declines — estimated around 10–15% fewer per decade. This is a 50-day program combining a series of professional in-clinic enzyme-based treatments (5 treatments total) with a home-prescriptive kit for maintenance.",
@@ -123,13 +133,6 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
             description:
               "A TCA (Trichloroacetic Acid) chemical peel is a professional skin resurfacing treatment that helps improve fine lines, acne scars, sun damage, uneven skin tone, and dull texture. This treatment stimulates collagen production while revealing smoother, brighter, and healthier-looking skin. Peeling typically occurs over several days as fresh new skin emerges. Treatments are customized to your skin's needs.",
             note: "Please contact us for a free consultation.",
-          },
-          {
-            name: "Jet Plasma Pen",
-            price: "$1,950",
-            duration: "45 Min",
-            description:
-              "Jet Plasma Pen is a handheld device that uses cold plasma to rejuvenate the skin, stimulate collagen, and stimulate fibroblasts deep in the dermis. Because it uses a cooler atmospheric temperature, it does not create surface trauma. The extremely powerful device penetrates 17,000 volts of plasma through the epidermis down to the dermis. This is a 4-treatment program performed every week or every two weeks.",
           },
         ],
       },
