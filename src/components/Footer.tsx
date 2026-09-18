@@ -54,7 +54,7 @@ export function Footer() {
               <li><Link href="/about" className="transition-colors hover:text-gold-600">About Us</Link></li>
               <li><Link href="/testimonials" className="transition-colors hover:text-gold-600">Testimonials</Link></li>
               <li><Link href="/policies" className="transition-colors hover:text-gold-600">Policies</Link></li>
-              <li><Link href="/packages" className="transition-colors hover:text-gold-600">Packages</Link></li>
+              <li><Link href="/packages" className="transition-colors hover:text-gold-600">10 Sessions · 15% Off</Link></li>
               <li><Link href="/gift-cards" className="transition-colors hover:text-gold-600">Gift Cards</Link></li>
               <li><Link href="/contact" className="transition-colors hover:text-gold-600">Contact</Link></li>
             </ul>
